@@ -231,7 +231,7 @@ const DetailPresenter = ({ result, loading, error }) =>
                 alt={company.name}
               />
             ) : (
-              <>{company.name}</>
+              <>{company.name} </>
             )
           )}
       </ProductorContainer>

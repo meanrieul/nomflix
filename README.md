@@ -22,9 +22,13 @@ Learning React and ES6 by building a Movie Discovery App.
 
 ## Code Challenges
 
-- [ ] IMDB Link
+- [x] IMDB Link
 - [x] Tabs inside of Movie / Show Details (YT videos, Production Company & Countries)
 - [ ] Collections Link
 - [ ] /collections Route
-- [ ] On TV Show, show seasons and creaters
+- [x] On TV Show, show seasons and creaters
 - [ ] Ended
+
+# Preview:
+
+Try it on [netlify](https://stupefied-bardeen-a574a2.netlify.app/)
