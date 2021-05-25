@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 import Loader from "Components/Loader";
-import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -222,7 +221,6 @@ const DetailPresenter = ({ result, loading, error }) =>
           ))}
       </Seasons>
       <ProductorContainer>
-        {console.log(result)}
         {result?.production_companies &&
           result.production_companies.map((company) =>
             company.logo_path ? (
